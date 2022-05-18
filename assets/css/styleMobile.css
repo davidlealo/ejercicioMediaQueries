@@ -1,0 +1,35 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.header{
+    grid-area: header;
+}
+.searcher{
+    grid-area: searcher;
+}
+.main{
+    grid-area: main;
+}
+.pagination{
+    grid-area: pagination;
+}
+.footer{
+    grid-area: footer;
+}
+.content-grid{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'searcher'
+    'main'
+    'pagination'
+    'footer';
+}
+@media (max-width: 576px){
+
+
+
+}
