@@ -3,12 +3,37 @@
     margin-left: 0px;
     padding-left: 0px;
     padding-top: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
     grid-area: header;
+    background-color: #004ba0;
+    color: white;
+    display: flex;
+    padding: 2%;
+}
+.header p{
+    margin-left: 2%;
+}
+.header img{
+    height: 80%;
 }
 .searcher{
     grid-area: searcher;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+.searcher select{
+    padding: 1.1%;
+}
+.searcher h4{
+    text-align: center;
+    font-size: larger;
+    font-weight: 300;
+    font-stretch: expanded;
 }
 .main{
     grid-area: main;
@@ -18,6 +43,8 @@
 }
 .footer{
     grid-area: footer;
+    background-color: #004ba0;
+    color: white;
 }
 .content-grid{
     display: grid;
@@ -30,6 +57,13 @@
 }
 @media (max-width: 576px){
 
-
+*{
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.searcher select{
+    margin: 1%;
+    font-size: larger;
+}
 
 }
