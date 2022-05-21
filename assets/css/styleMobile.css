@@ -63,6 +63,10 @@
     grid-area: footer;
     background-color: #004ba0;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
 }
 .content-grid{
     display: grid;
