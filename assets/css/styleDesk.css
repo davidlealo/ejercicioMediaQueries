@@ -1,0 +1,41 @@
+.content-grid{
+    display: grid;
+    grid-template-areas:
+    'header searcher searcher searcher searcher searcher searcher searcher searcher'
+    'header main main main main main main main main'
+    'footer pagination pagination pagination pagination pagination pagination pagination pagination';
+    }
+
+@media (min-width: 576px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .logo{
+        margin-top: 3%;
+        width: 10px;
+    }
+    .logo img{
+        width: 10%;
+        height: 5%;
+
+    }
+    .logo p{
+        font-size: xx-large;
+    }
+    .hamburger{
+        display: none;
+    }
+    .footer-text{
+        margin: 10px;
+        font-size: small;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    .pagination{
+        padding-bottom: 1%;
+        margin-bottom: 1%;
+    }
+
+}
