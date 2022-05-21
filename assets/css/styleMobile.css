@@ -48,6 +48,9 @@
 }
 .pagination{
     grid-area: pagination;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 }
 .footer{
     grid-area: footer;
@@ -72,6 +75,7 @@
     margin: 3%;
     border: 1px solid #004ba0;
     width: 20em;
+    box-shadow: 3px 7px 10px #004ba05b;
 }
 .card img{
     width: 20em;
@@ -94,6 +98,33 @@
     font-stretch: expanded;
     font-size: medium;
 }
+.card input:hover{
+    background-color: #004ba099;
+}
+.content-pages{
+    display: flex;
+}
+.box-pages{
+    border: 1px solid #004ba031;
+    color: #004ba099;
+    padding: 5px 10px;
+}
+.box-pages:hover{
+    font-size: larger;
+    background-color: #eeeeee;
+}
+.arrow{
+    letter-spacing: -5px;
+}
+.back{
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
+}
+.forward{
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
 @media (max-width: 576px){
 
 *{
